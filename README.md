@@ -1,6 +1,6 @@
 # Epylib
 
-<a href="https://zenodo.org/badge/latestdoi/179277414"><img src="https://zenodo.org/badge/179277414.svg" alt="DOI"></a>
+[![DOI](https://zenodo.org/badge/179277414.svg)](https://zenodo.org/badge/latestdoi/179277414)
 
 Epylib is an open-source Python 2 software for exploring, visualizing, and analyzing human intracranial EEG recordings from drug-resistant epilepsy patients.
 
@@ -30,7 +30,7 @@ Download the folder epylib and add the containing directory in the search path (
 
 If you use the source code, please make sure to reference both the package and the paper:
 
-Vila-Vidal, M. (2017). Epylab.
+Vila-Vidal, M. (2017). Epylab. ()
 
 Vila-Vidal, M., Principe, A., Ley, M., Deco, G., Campo, A. T., & Rocamora, R. (2017). Detection of recurrent activation patterns across focal seizures: Application to seizure onset zone identification. *Clinical Neurophysiology*, 128(6), 977-985. (https://doi.org/10.1016/j.clinph.2017.03.040)
 
