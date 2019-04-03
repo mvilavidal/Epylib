@@ -30,7 +30,7 @@ Download the folder epylib and add the containing directory in the search path (
 
 If you use the source code, please make sure to reference both the package and the paper:
 
-Vila-Vidal, M. (2017). Epylab. ()
+Vila-Vidal, M. (2017). Epylab. (hhtp://doi.org/10.5281/zenodo.2626639)
 
 Vila-Vidal, M., Principe, A., Ley, M., Deco, G., Campo, A. T., & Rocamora, R. (2017). Detection of recurrent activation patterns across focal seizures: Application to seizure onset zone identification. *Clinical Neurophysiology*, 128(6), 977-985. (https://doi.org/10.1016/j.clinph.2017.03.040)
 
