@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Epylib is an open-source Python software for exploring, visualizing, and analyzing human intracranial EEG recordings from drug-resistant epilepsy patients.
+Epylib is an open-source Python software for exploring, visualizing, and analyzing human intracranial EEG recordings from drug-resistant epilepsy patients. Basic documentation can be found in the wiki: https://github.com/mvilavidal/Epylib/wiki.
+
+If you use the source code, please make sure to reference both the package and the paper:
+> Vila-Vidal, M. (2017). Epylib v1.0, https://github.com/mvilavidal/Epylib. Zenodo. (https://doi.org/10.5281/zenodo.2626639)
+
+> Vila-Vidal, M., Principe, A., Ley, M., Deco, G., Campo, A. T., & Rocamora, R. (2017). Detection of recurrent activation patterns across focal seizures: Application to seizure onset zone identification. Clinical Neurophysiology, 128(6), 977-985. (https://doi.org/10.1016/j.clinph.2017.03.040)
+
+-----------------------------------------------------------------------
 
 Copyright (C) 2017, Manel Vila-Vidal
 Contact details: m@vila-vidal.com / manel.vila-vidal@upf.edu
@@ -10,6 +17,7 @@ This program is free software; you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License v2.0 for more details.
 
 You should have received a copy of the GNU General Public License v2.0 along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
 """
 
 
@@ -19,8 +27,10 @@ import scipy.stats as st
 import matplotlib.pyplot as plt
 
 
+# The script tutorial.py provides three comprehensive examples of the package functionality. For the first example, the script import simulated SEEG recordings from the folder 'data/'. In the the second and third examples we analyze real power time courses during ictal epochs. The dataset and a detailed description can be found in OSF (https://osf.io/nmxfy/). Download the folder 'power_hdf5' and place it in the same folder that contains the file 'tutorial.py'
 
-#%% 1. IMPORT AND ANALYZE (S)EEG DATA FROM A FILE
+
+#%% 1. IMPORT AND ANALYZE SIMULATED (S)EEG DATA FROM A FILE
 ### ---------------------------------------------
 
 # This is simulated data
@@ -57,6 +67,8 @@ pwBroad=epi.loadHDF5('data/'+'pw_broad_example20signals.hdf5')
 
 #%% 2. ANALYZE ONE SEIZURE
 ### ----------------------
+
+
 
 
 # The seizure epoch starts 60 s after the beginning of the recording and ends 60 s before the end of the recording.
