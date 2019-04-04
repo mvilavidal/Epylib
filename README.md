@@ -1,4 +1,4 @@
-<h1> Epylib  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    <image src="https://raw.githubusercontent.com/mvilavidal/Epylib/master/images/signal.png" alt="signal" align="middle"  height="100" width="400"/> </h1>
+<h1> Epylib  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    <image src="https://raw.githubusercontent.com/mvilavidal/Epylib/master/images/signal.png" alt="signal" align="middle|right"  height="100" width="400"/> </h1>
 
 [![DOI](https://zenodo.org/badge/179277414.svg)](https://zenodo.org/badge/latestdoi/179277414)
 
