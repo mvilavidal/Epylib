@@ -1,4 +1,4 @@
-# Epylib  &nbsp; &nbsp; [![TCplot](https://raw.githubusercontent.com/mvilavidal/Epylib/master/images/signal.png)](https://github.com/mvilavidal/Epylib/wiki/TCplot)
+<h1> Epylib  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    <image src="https://raw.githubusercontent.com/mvilavidal/Epylib/master/images/signal.png" alt="signal" align="middle"  height="150" width="600"/> </h1>
 
 [![DOI](https://zenodo.org/badge/179277414.svg)](https://zenodo.org/badge/latestdoi/179277414)
 
