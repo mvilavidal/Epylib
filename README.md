@@ -7,10 +7,9 @@ Epylib is an open-source Python software for exploring, visualizing, and analyzi
 
 ## Description
 
-The package is contained in the folder epylib. Basic documentation can be found in the wiki: https://github.com/mvilavidal/Epylib/wiki
-.
+The package is contained in the folder epylib. Basic documentation can be found in the wiki: https://github.com/mvilavidal/Epylib/wiki. Besides, all functions and classes in the package contain Docstings information that can be accessed using the command `help()`.
 
-Apart from the wiki, the script `tutorial.py` provides three comprehensive examples of the package functionality. For the first example, the script import simulated SEEG recordings from the folder `data/`. In the the second and third examples we analyze real power time courses during ictal epochs. The dataset and a detailed description can be found in OSF (https://osf.io/nmxfy/). Download the folder 'power_hdf5' and place it in the same folder that contains the file 'tutorial.py'
+The script `tutorial.py` provides three comprehensive examples of the package functionality. For the first example, the script import simulated SEEG recordings from the folder `data/`. In the the second and third examples we analyze real power time courses during ictal epochs. The dataset and a detailed description can be found in OSF (https://osf.io/nmxfy/). Download the folder 'power_hdf5' and place it in the same folder that contains the file 'tutorial.py'
 
 For a more detailed and techincal description of the algorithms implemented in this package, please refer to:
 
