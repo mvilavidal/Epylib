@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/179277414.svg)](https://zenodo.org/badge/latestdoi/179277414) 
 
 
-Epylib is an open-source Python 2 software for exploring, visualizing, and analyzing human intracranial EEG recordings from drug-resistant epilepsy patients.
+Epylib is an open-source Python software for exploring, visualizing, and analyzing human intracranial EEG recordings from drug-resistant epilepsy patients.
 
 ## Description
 
@@ -19,7 +19,7 @@ For a more detailed and techincal description of the algorithms implemented in t
 
 ## Dependencies
 
-Epylib uses the HDF5 binary data format. Please install the h5py package (https://www.h5py.org/).
+Epylib runs on Python 2. It uses the HDF5 binary data format to store array-like data with associated metadata. Please install the h5py package from https://www.h5py.org/.
 
 Additionally, epylib can automatically import recordings stored in EDF files. To enable this functionality the python library pyEDFlib needs to be installed (https://pyedflib.readthedocs.io).
 
