@@ -1,6 +1,7 @@
-<h1> Epylib  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    <image src="https://raw.githubusercontent.com/mvilavidal/Epylib/master/images/signal.png" alt="signal" align="middle|right"  height="100" width="400"/> </h1>
+# Epylib <img src="https://raw.githubusercontent.com/mvilavidal/Epylib/master/images/signal.png" alt="signal" height="80" width="500" align="right" />
 
-[![DOI](https://zenodo.org/badge/179277414.svg)](https://zenodo.org/badge/latestdoi/179277414)
+[![DOI](https://zenodo.org/badge/179277414.svg)](https://zenodo.org/badge/latestdoi/179277414) 
+
 
 Epylib is an open-source Python 2 software for exploring, visualizing, and analyzing human intracranial EEG recordings from drug-resistant epilepsy patients.
 
