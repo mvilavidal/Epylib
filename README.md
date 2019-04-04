@@ -1,4 +1,4 @@
-# Epylib
+# Epylib [![TCplot](https://raw.githubusercontent.com/mvilavidal/Epylib/master/images/tcplot_small.png)](https://github.com/mvilavidal/Epylib/wiki/TCplot)
 
 [![DOI](https://zenodo.org/badge/179277414.svg)](https://zenodo.org/badge/latestdoi/179277414)
 
