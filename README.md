@@ -12,9 +12,9 @@ The package is contained in the folder epylib. Basic documentation can be found 
 
 Apart from the wiki, the script `tutorial.py` provides three comprehensive examples of the package functionality. For the first example, the script import simulated SEEG recordings from the folder `data/`. In the the second and third examples we analyze real power time courses during ictal epochs. The dataset and a detailed description can be found in OSF (https://osf.io/nmxfy/). Download the folder 'power_hdf5' and place it in the same folder that contains the file 'tutorial.py'
 
-For a more detailed and techincal description of the algorithms implemented in this package, please refer to
+For a more detailed and techincal description of the algorithms implemented in this package, please refer to:
 
-Vila-Vidal, M., Principe, A., Ley, M., Deco, G., Campo, A. T., & Rocamora, R. (2017). Detection of recurrent activation patterns across focal seizures: Application to seizure onset zone identification. *Clinical Neurophysiology*, 128(6), 977-985. (https://doi.org/10.1016/j.clinph.2017.03.040)
+> Vila-Vidal, M., Principe, A., Ley, M., Deco, G., Campo, A. T., & Rocamora, R. (2017). Detection of recurrent activation patterns across focal seizures: Application to seizure onset zone identification. *Clinical Neurophysiology*, 128(6), 977-985. (https://doi.org/10.1016/j.clinph.2017.03.040)
 
 
 ## Dependencies
