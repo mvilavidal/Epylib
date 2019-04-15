@@ -88,12 +88,12 @@ def tfplot(tf,startt=None,endt=None,vmin=None,vmax=None,perc=2,center=False, tic
     if name is not None:
         plt.savefig(name,dpi=600)
         plt.close()
-    else:
-        plt.show() 
+#    else:
+#        plt.show() 
         
 
            
-def tcplot(tc,usech=None,startt=None,endt=None,perc=2,name=None,clabel='Power',cmap='',ticksevery=60, usechlabels=False):
+def tcplot(tc,usech=None,startt=None,endt=None,perc=2,name=None,clabel='Power',cmap=None,ticksevery=60, usechlabels=False):
     """
     Colorplot showing the power carried by each channel as a function of time.
     
@@ -139,7 +139,7 @@ def tcplot(tc,usech=None,startt=None,endt=None,perc=2,name=None,clabel='Power',c
     if (type(tc[0,0])==np.bool_) or (cmap=='gray_r'):
         plt.imshow(tc_w, cmap='gray_r',interpolation='nearest',extent=(startt,endt,0,tc.channels),origin='lower')
     else:
-        plt.imshow(tc_w,vmin=vmin,vmax=vmax,interpolation='nearest',extent=(startt,endt,0,tc.channels),origin='lower')
+        plt.imshow(tc_w,vmin=vmin,vmax=vmax,interpolation='nearest',extent=(startt,endt,0,tc.channels),origin='lower',cmap=cmap)
 
     if perc!=0: cbar=plt.colorbar(extend='both')
     else: cbar=plt.colorbar()
@@ -177,6 +177,6 @@ def tcplot(tc,usech=None,startt=None,endt=None,perc=2,name=None,clabel='Power',c
     if name is not None:
         plt.savefig(name,dpi=600)
         plt.close()
-    else:
-        plt.show()
+    #else:
+        #plt.show()
 
