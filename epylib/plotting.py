@@ -166,7 +166,7 @@ def tcplot(tc,usech=None,startt=None,endt=None,perc=2,name=None,clabel='Power',c
         chmark=np.array(chmark)
         ylabels=[tc_w.channellabels[ch] for ch in chmark]
     else:
-        ylabels=range(0,tc.channels,5)
+        ylabels=np.arange(0,tc.channels,5)
         chmark=ylabels
     
     plt.yticks(chmark+0.5,ylabels,fontsize=12)
